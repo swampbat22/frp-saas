@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/requests": "pages/api/requests.js",
+  "/admin": "pages/admin.js",
+  "/api/unlock": "pages/api/unlock.js",
+  "/dashboard": "pages/dashboard.js",
+  "/frp-request": "pages/frp-request.js",
+  "/": "pages/index.js",
+  "/_document": "pages/_document.js"
+}

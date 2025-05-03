@@ -1,5 +1,6 @@
-import { supabase } from '@/lib/supabaseClient';
-import { useState } from 'react';
+import '../styles/globals.css'
+import { supabase } from '../lib/supabaseClient'
+
 export default function Login() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
