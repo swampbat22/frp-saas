@@ -1,12 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/admin": "pages/admin.html",
   "/_error": "pages/_error.js",
-  "/api/requests": "pages/api/requests.js",
-  "/api/unlock": "pages/api/unlock.js",
-  "/dashboard": "pages/dashboard.html",
-  "/frp-request": "pages/frp-request.html",
-  "/": "pages/index.html",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
