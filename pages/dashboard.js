@@ -1,13 +1,17 @@
+import React, { useEffect, useState } from 'react';
+import { supabase } from '../lib/supabaseClient';
 
-import { supabase } from '../lib/supabaseClient'
 export default function Dashboard() {
   const [user, setUser] = useState(null);
+
   useEffect(() => {
     supabase.auth.getUser().then(({ data: { user } }) => {
       setUser(user);
     });
   }, []);
+
   if (!user) return <p>Loading...</p>;
+
   return (
     <div className="p-10">
       <h1 className="text-xl">Welcome, {user.email}</h1>
