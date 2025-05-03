@@ -1,6 +1,4 @@
-
-import '../styles/globals.css'
-import { supabase } from '../lib/supabaseClient'
+import '../styles/globals.css';
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
