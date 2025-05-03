@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+
 import { supabase } from '../lib/supabaseClient'
 export default function Dashboard() {
   const [user, setUser] = useState(null);
